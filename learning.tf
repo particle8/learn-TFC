@@ -1,5 +1,5 @@
 terraform {
-    backend "local" {}
+    backend "remote" {}
 }
 provider "aws" {
   profile    = "default"
